@@ -1,3 +1,9 @@
+<?php
+if ( !isset($_GET["nama"]) || !isset($_GET["nrp"]) || !isset($_GET["kelas"]) ) {
+  header("Location: latihan1.php");
+  exit;
+}
+ ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
